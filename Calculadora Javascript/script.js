@@ -36,6 +36,5 @@ plusMinus.addEventListener("click", event => {
 })
 
 percent.addEventListener("click", event => {
-    const porcentagem = display.value.replace("%", "/100*");
-    display.value = porcentagem;
+    display.value = display.value.replace("%", "/100*");
 })
