@@ -26,11 +26,12 @@ body {
 
 .display {
     grid-column: 1 / 5;
-    background: whitesmoke;
+    background: rgba(255, 255, 255, 0.2);
     font-size: 26px;
     text-align: end;
     padding: 0 15px;
     color:black;
+    border: none;
 }
 
 button {
