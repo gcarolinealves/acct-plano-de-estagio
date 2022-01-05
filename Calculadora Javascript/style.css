@@ -93,3 +93,125 @@ button:hover {
 .bg-yellow:hover {
     background: rgba(255, 255, 102, 0.6);
 }
+
+/*Medias queries*/
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 250px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas: 
+            "display display display"
+            "clear delete percent"
+            "seven eight nine"
+            "four five six"
+            "one two three"
+            "plus-minus zero dot"
+            "div mult equal"
+            "plus minus equal"
+            ;
+        text-align: center;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .display {
+        grid-column: 1/5;
+        grid-area: display;
+        font-size: 20px;
+    }
+
+    .clear-input {
+        grid-area: clear;
+    }
+
+    .delete {
+        grid-area: delete;
+    }
+
+    .percent {
+        grid-area: percent;
+    }
+
+    .div {
+        grid-area: div;
+    }
+
+    .mult {
+        grid-area: mult;
+    }
+
+    .plus {
+        grid-area: plus;
+    }
+
+    .minus {
+        grid-area: minus;
+    }
+
+    .dot {
+        grid-area: dot;
+    }
+    
+    .plus-minus {
+        grid-area: plus-minus;
+    }
+    
+    .equal {
+        grid-area: equal;
+        border-radius: 15px;
+        height: 113px;
+        width: 50px;
+        margin-left: 15px; 
+        
+    }
+
+    .nine {
+        grid-area: nine;
+    }
+
+    .eight {
+        grid-area: eight;
+    }
+    
+    .seven {
+        grid-area: seven;
+    }
+
+    .six {
+        grid-area: six;
+    }
+
+    .five {
+        grid-area: five;
+    }
+
+    .four {
+        grid-area: four;
+    }
+
+    .three {
+        grid-area: three;
+    }
+
+    .two {
+        grid-area: two;
+    }
+
+    .one {
+        grid-area: one;
+    }
+
+    .zero {
+        grid-area: zero;
+    }
+
+    button {
+        height: 50px;
+        width: 50px;
+        margin-left: 15px;
+    }
+}
