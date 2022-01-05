@@ -1,2 +1,4 @@
-![calculadora](https://user-images.githubusercontent.com/25299664/148226664-1368515e-90f5-4cdb-910d-60b760372654.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/25299664/148228209-3b1ab20e-f1c3-4eb3-993c-7c2765a9551e.png"/>
+</div>
 
