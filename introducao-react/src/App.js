@@ -1,17 +1,19 @@
 import './App.css';
+import {format} from "date-fns";
 
 function Helloworld (props){
+    const date = new Date();
+    
 
     return (
         <div className="card">
             <p className={props.textClass}>{props.setConfig("Hello world!")}</p>
+            <span className="date">{format(date, "dd-MMMM-yyyy")}</span>
         </div>
     )
 }
 
 function App() {
-    
-
     function normalText (string) {
         return string;
     }
