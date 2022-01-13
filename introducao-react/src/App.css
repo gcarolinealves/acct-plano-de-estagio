@@ -40,10 +40,6 @@
     text-shadow: 10px 15px 0px rgba(9, 10, 10, 0.5);
 }
 
-.upper-case {
-    text-transform: uppercase;
-}
-
 .transparent {
     opacity: 0.2;
 }
