@@ -21,3 +21,13 @@
     <li>Configurações: Nesta área é possível cadastrar travas de segurança das mudanças de preço, além de outras configurações de preço para outros contextos.</li>
   </ol>
 </div><br><br>
+
+<strong>Promoções:</strong> Uma promoção é um desconto concedido ao cliente, podendo estar associado a um produto, frete ou brinde. Os descontos podem ser do tipo nominal (concede um valor bruto, como R$20) ou percentual (concede um valor percentual,como 20%) e são aplicados dependendo das regras criadas anteriormente pelo lojista. <br><br>
+Há seis tipos diferentes de promoções: promoção regular, compre junto, leve mais por menos, desconto progressivo, compre e ganhe, promoção de campanha. Além disso, existe as taxas que são valores adicionais expressos em porcentagem inseridos no preço do produto dependendo das condições criadas pelo lojista.<br><br>
+
+<strong>Configurações da conta:</strong> Esta seção é responsável pela gestão dos usuários da loja (os e-mails que têm acesso ao painel administrativo), perfis de acesso (os níveis de permissão, ou seja, quais funcionalidades o usuário poderá visualizar e/ou alterar dentro de cada módulo da plataforma) e dados gerais da conta.
+
+
+
+
+
