@@ -25,7 +25,23 @@
 <strong>Promoções:</strong> Uma promoção é um desconto concedido ao cliente, podendo estar associado a um produto, frete ou brinde. Os descontos podem ser do tipo nominal (concede um valor bruto, como R$20) ou percentual (concede um valor percentual,como 20%) e são aplicados dependendo das regras criadas anteriormente pelo lojista. <br><br>
 Há seis tipos diferentes de promoções: promoção regular, compre junto, leve mais por menos, desconto progressivo, compre e ganhe, promoção de campanha. Além disso, existe as taxas que são valores adicionais expressos em porcentagem inseridos no preço do produto dependendo das condições criadas pelo lojista.<br><br>
 
-<strong>Configurações da conta:</strong> Esta seção é responsável pela gestão dos usuários da loja (os e-mails que têm acesso ao painel administrativo), perfis de acesso (os níveis de permissão, ou seja, quais funcionalidades o usuário poderá visualizar e/ou alterar dentro de cada módulo da plataforma) e dados gerais da conta.
+<strong>Configurações da conta:</strong> Esta seção é responsável pela gestão dos usuários da loja (os e-mails que têm acesso ao painel administrativo), perfis de acesso (os níveis de permissão, ou seja, quais funcionalidades o usuário poderá visualizar e/ou alterar dentro de cada módulo da plataforma) e dados gerais da conta.<br><br>
+
+<strong>Pedidos:</strong> Um pedido é gerado quando um cliente aperta o botão de "Finalizar compra" na loja. Um pedido contém diversas informações, como itens do carrinho, valor do pedido, horário do pedido, dados do cliente, dados sobre promoções aplicadas ao pedido, endereço de entrega, método de pagamento, política comercial aplicada na compra, responsável pela venda (marketplace) e pelo fulfillment (seller). Um pedido finalizado só pode ter dois estados possíveis: faturado (o pedido foi concluído com sucesso) ou cancelado (o pedido não foi concluído).<br><br>
+
+<strong>Pagamentos:</strong> Módulo responsável por gerenciar todas as ações referentes ao fluxo financeiro da loja. A arquitetura desse módulo é composta por:
+
+<div>
+  <ol>
+    <li>Gataway: Sistema que efetua a transmissão dos dados das compras realizadas na sua loja no momento do checkout.</li>
+    <li>Adquirente: Empresa especializada em fazer a liquidação financeira das transações de uma loja por meio de cartões de crédito e débito. </li>
+    <li>Subadquirente: </li>
+    <li>Bandeira do cartão: </li>
+    <li>Banco emissor: </li>
+    <li>Antifraude</li>
+    <li>Certificação PCI SSC: </li>
+  </ol>
+</div><br><br>
 
 
 
