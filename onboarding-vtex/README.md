@@ -33,17 +33,17 @@ Há seis tipos diferentes de promoções: promoção regular, compre junto, leve
 
 <div>
   <ol>
-    <li>Gataway: Sistema que efetua a transmissão dos dados das compras realizadas na sua loja no momento do checkout.</li>
+    <li>Gateway: Sistema que efetua a transmissão dos dados das compras realizadas na loja no momento do checkout aos atores financeiros que integram a sequência do fluxo de pagamento (como adquirentes, bandeiras e bancos emissores).</li>
     <li>Adquirente: Empresa especializada em fazer a liquidação financeira das transações de uma loja por meio de cartões de crédito e débito. </li>
-    <li>Subadquirente: </li>
-    <li>Bandeira do cartão: </li>
-    <li>Banco emissor: </li>
-    <li>Antifraude</li>
-    <li>Certificação PCI SSC: </li>
+    <li>Subadquirente: Empresa que processa pagamentos e transmite suas informações para os outros players envolvidos no fluxo de pagamento. Pode ser entendido como uma espécie de intermediador entre adquirente e loja.</li>
+    <li>Bandeira do cartão: São empresas responsáveis por definir as regras de negócio para compras realizadas com cartão de crédito. São elas que definem os padrões pelos quais os adquirentes devem processar as transações realizadas por esse meio de pagamento.</li>
+    <li>Banco emissor: Instituição financeira responsável pelos meios de pagamento, sejam eles boletos bancários, cartões de débito ou de crédito. É ele que, ao receber os dados de uma compra feita na loja, vai autorizar ou não a venda.</li>
+    <li>Antifraude: Sistema especializado em analisar as compras realizadas nos sites, com o intuito de identificar operações fraudulentas.</li>
+    <li>Certificação PCI SSC: Fórum global aberto para o contínuo desenvolvimento, aprimoramento, armazenamento, disseminação e implementação de padrões de segurança para a proteção de dados.</li>
   </ol>
 </div><br><br>
 
-
+<strong>Marketplace: </strong> Ambiente onde o pedido é fechado, ou seja, onde o cliente realiza o processo de checkout. O seller é o proprietário do SKU. É, portanto, responsável pelo fulfillment - ou seja, pela entrega do produto ao cliente. Toda loja que vende produtos em seu próprio ambiente e faz suas próprias entregas é um Marketplace e um Seller ao mesmo tempo.
 
 
 
