@@ -43,6 +43,6 @@ Há seis tipos diferentes de promoções: promoção regular, compre junto, leve
   </ol>
 </div><br><br>
 
-<strong>Marketplace: </strong> Ambiente onde o pedido é fechado, ou seja, onde o cliente realiza o processo de checkout. O seller é o proprietário do SKU. É, portanto, responsável pelo fulfillment - ou seja, pela entrega do produto ao cliente. Toda loja que vende produtos em seu próprio ambiente e faz suas próprias entregas é um Marketplace e um Seller ao mesmo tempo.
+<strong>Marketplace: </strong> Ambiente onde o pedido é fechado, ou seja, onde o cliente realiza o processo de checkout. O seller é o proprietário do SKU. É, portanto, responsável pelo fulfillment - ou seja, pela entrega do produto ao cliente. Toda loja que vende produtos em seu próprio ambiente e faz suas próprias entregas é um Marketplace e um Seller ao mesmo tempo.<br><br>
 
 <strong>Message Center: </strong> Módulo responsável pelas configurações e envio dos e-mails transacionais. É dividido em duas seções: templates (aqui você pode editar o conteúdo dos e-mails) e remetentes (aqui é possível alterar as informações dos remetentes desses e-mails).
